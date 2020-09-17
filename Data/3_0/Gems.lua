@@ -7187,4 +7187,22 @@ return {
 		reqInt = 0,
 		defaultLevel = 20,
 	},
+		["Metadata/Items/Gems/SkillGemCracklingLance"] = {
+		name = "Crackling Lance",
+		grantedEffectId = "CracklingLance",
+		tags = {
+			active_skill = true,
+			lightning = true,
+			intelligence = true,
+			spell = true,
+			area = true, 
+		},
+		tagString = "AoE, Spell, Lightning",
+		reqStr = 0,
+		reqDex = 0,
+		reqInt = 155,
+		defaultLevel = 20,
+	}
+
+
 }
